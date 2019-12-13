@@ -1,3 +1,5 @@
+// +build wasm js
+
 package main
 
 import (
@@ -9,7 +11,7 @@ import (
 
 	"github.com/vugu/vugu"
 
-	js "syscall/js"
+	"syscall/js"
 )
 
 // Router - let's try making a router that doesn't make my head explode and my soul weep for longing of simpler times.
